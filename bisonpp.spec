@@ -13,6 +13,11 @@ Source: ftp://ftp.tu-darmstadt.de/pub/programming/languages/C++/tools/flex++biso
 Patch0: bison++.cflags.patch.bz2
 Buildroot: %{_tmppath}/%{name}-buildroot
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 Bison is a general purpose parser generator which converts a grammar
 description for an LALR context-free grammar into a C program to parse that
